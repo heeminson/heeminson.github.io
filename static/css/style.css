@@ -43,11 +43,51 @@
 #content {
 	width: 100%;
 	height: 450px;
+	text-align: center;
 	background-color: #FF9898;
 	margin-top: 150px;
 	border: 1px solid #bcbcbc;
 }
-
+#content-work {
+	width: 100%;
+	height: 450px;
+	text-align: center;
+	background-color: #F3BB43;
+	margin-top: 150px;
+	border: 1px solid #bcbcbc;
+}
+#content-text {
+	width: 100%;
+	height: 450px;
+	text-align: center;
+	background-color: #50C6CB;
+	margin-top: 150px;
+	border: 1px solid #bcbcbc;
+}
+#content-about {
+	width: 100%;
+	height: 450px;
+	text-align: center;
+	background-color: #4A5AF9;
+	margin-top: 150px;
+	border: 1px solid #bcbcbc;
+}
+#content-news {
+	width: 100%;
+	height: 450px;
+	text-align: center;
+	background-color: #EF86FF;
+	margin-top: 150px;
+	border: 1px solid #bcbcbc;
+}
+#content-contact {
+	width: 100%;
+	height: 450px;
+	text-align: center;
+	background-color: #A2FFB4;
+	margin-top: 150px;
+	border: 1px solid #bcbcbc;
+}
 
 #footer {
 	position: fixed;
