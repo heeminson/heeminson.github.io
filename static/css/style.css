@@ -9,7 +9,7 @@
 	top: 0px; 	/* 위쪽 공백 메우기 */
 	left: 0px;  /* 왼쪽 공백 메우기 */
 	background-color: #eee;
-	border: 1px solid #bcbcbc;
+	border-bottom: 1px solid #bcbcbc;
 	padding-top: 50px;
 	font-size: 15px;
 	text-align: right;
@@ -60,5 +60,5 @@
 	font-size: 15px;
 	padding-bottom: 60px;
 	background-color: #ABC;
-	border: 1px solid #bcbcbc;
+	border-top: 1px solid #bcbcbc;
 }
