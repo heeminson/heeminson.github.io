@@ -5,9 +5,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<title> heeminson >> contact </title>
+	<title>  >> CONTACT </title>
 	<!-- Personal implemented stylesheet -->
 	<link rel="stylesheet" type="text/css" href="../static/css/style.css?version=1" />
+	<link rel="stylesheet" type="text/css" href="../static/css/contact_page_style.css?version=1" />
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 </head>
 
@@ -29,12 +32,30 @@
 		<!-- //header -->
 		<div id="container">
 			<div id="content-contact">
-				<h1>contact</h1>
+				<!-- envelope icon -->
+				<p><i class="fa fa-envelope-o" style="font-size:40px"></i></p>
+				<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+					<div>
+						<label for="name" style="font-size: 15px">Name:</label> 
+						<input type="text" name="name">		
+					</div>
+					<div>
+						<label for="msg" style="font-size: 15px">Message:</label>
+						<textarea id="msg"></textarea>
+					</div>
+					<div class="button">
+						<button type="submit" style="font-size: 15px"> Send </button>
+					</div>		
+				</form>
+				<div id="sns-icon">	
+					<a href="#" class="fa fa-tumblr"></a>
+					<a href="#" class="fa fa-instagram"></a>
+				</div>
 			</div>
 		</div>
 		<!-- // container -->
 		<div id="footer">
-			<p> © 2018 All Rights Reserved. Copyright Hee Min Son </p>
+			<p> © 2018 All Rights Reserved. Designed by Je Min Son </p>
 		</div>
 		<!-- // footer -->
 	</div>
