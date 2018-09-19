@@ -37,11 +37,15 @@
 				<form action="mailto:someone@example.com" method="post" enctype="text/plain">
 					<div>
 						<label for="name" style="font-size: 15px">Name:</label> 
-						<input type="text" name="name">		
+						<input type="text" name="name" placeholder="Your first and last name">		
+					</div>
+					<div>
+						<label for="info" style="font-size: 15px">Contact:</label> 
+						<input type="text" name="Contact" placeholder="Your phone number or email address.">
 					</div>
 					<div>
 						<label for="msg" style="font-size: 15px">Message:</label>
-						<textarea id="msg"></textarea>
+						<textarea id="msg" name="messgae" placeholder="Say something to me!"></textarea>
 					</div>
 					<div class="button">
 						<button type="submit" style="font-size: 15px"> Send </button>
