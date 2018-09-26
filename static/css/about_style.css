@@ -1,6 +1,6 @@
 
 /* smartphones (portrait) */
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
 	#header {
 		display: none;
 	}
@@ -141,7 +141,7 @@
 	}
 }
 
-
+/* 테블릿 */
 @media (min-width: 801px) and (max-width: 1189px) {
 	#dropdown_header {
 		display: none;
@@ -285,8 +285,6 @@
 		background-color: #ABC;
 		z-index: 5;
 	}
-
-
 }
 /* 13인치 모니터 */
 @media (min-width: 1190px) {
