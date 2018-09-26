@@ -1,6 +1,6 @@
 
 /* smartphones (portrait) */
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 800px) {
 	#header {
 		display: none;
 	}
@@ -11,7 +11,7 @@
 		top: 0px; 	/* 위쪽 공백 메우기 */
 		left: 0px;  /* 왼쪽 공백 메우기 */
 		background-color: #080823;
-		padding-left: 200px;
+		text-align: right;
 		z-index: 5;
 	}
 
@@ -142,7 +142,7 @@
 }
 
 
-@media (min-width: 441px) and (max-width: 1189px) {
+@media (min-width: 801px) and (max-width: 1189px) {
 	#dropdown_header {
 		display: none;
 	}
