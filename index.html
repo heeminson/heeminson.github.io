@@ -5,6 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title> heeminson </title>
 	<!-- Personal implemented stylesheet -->
 	<link rel="stylesheet" type="text/css" href="../static/css/index_style.css?version=1" />
@@ -12,18 +13,27 @@
 
 
 <body>
-	<div id="frame">
+  
+  <div id="frame">
+    <div id="header"></div>
+    <div id="container">
+      <div id="content">
+        <img class="bg_slides" src="../static/img/background1.JPG">
+        <img class="bg_slides" src="../static/img/background2.JPG">
+        <img class="bg_slides" src="../static/img/background3.JPG">
+        <div class="overlay">
+          <div class="text"> HEEMIN SON 
+            <a href="../templates/about.html"> Enter </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </div>
 
-		<!-- container -->
-		<div id="container">
-			<a href="../templates/about.html"> 
-				<h1> HEEMIN SON </h1>
-			</a>
-		</div>
-		<!-- // container -->
+  <script type="text/javascript" src="../static/js/background.js"></script>
 
-	</div>
-	<!--frame -->
+
 </body>
 
 

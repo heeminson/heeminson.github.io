@@ -1,29 +1,77 @@
-html {
-	background: url(../img/background1.JPG) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-#container {	/* 가운데 중앙 정렬 */
-	position:absolute;
-  	top:0;right:0;bottom:0;left:0;
-  	display:-webkit-box;
-  	display:-moz-box;
-  	display:-ms-flexbox;
-  	display:-webkit-flex;
-  	display:flex;
 
-  	align-items:center;
-  	justify-content:center;
-  	-webkit-align-items:center;
-  	-webkit-justify-content:center;
+#frame {
+  width: 100%;
+  height: 100%;
+}
 
-  	-webkit-box-pack:center;
-  	-webkit-box-align:center;
-  	-moz-box-pack:center;
-  	-moz-box-align:center;
-  	-ms-box-pack:center;
-  	-ms-box-align:center;
+#container {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #040426;
+}
+
+#content {  /* 가운데 중앙 정렬 */
+  position:absolute;
+  top:0;right:0;bottom:0;left:0;
+  display:-webkit-box;
+  display:-moz-box;
+  display:-ms-flexbox;
+  display:-webkit-flex;
+  display:flex;
+
+  align-items:center;
+  justify-content:center;
+  -webkit-align-items:center;
+  -webkit-justify-content:center;
+
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+  -ms-box-pack:center;
+  -ms-box-align:center;
+
+  margin: 200px;
+}
+
+
+#content .bg_slides {
+  display:none;
+  width: 100%;
+  border: 15px solid #B0B0BD;
+}
+
+#content:hover .bg_slides {
+  opacity: 0.5;
+}
+
+#content .overlay {
+  position: fixed;
+  /*background-color: #008CBA;*/
+  overflow: hidden;
+  width: 300px;
+  height: 0;
+  /*transition: .5s ease; */
+}
+
+#content:hover .overlay {
+  height: 300px;
+}
+
+#content .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
