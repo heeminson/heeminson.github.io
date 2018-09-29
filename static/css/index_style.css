@@ -36,19 +36,66 @@
   -moz-box-align:center;
   -ms-box-pack:center;
   -ms-box-align:center;
-
-  margin: 200px;
 }
 
-
-#content .bg_slides {
-  display:none;
+.image1, .image2, .image3 {
+  position: absolute;
   width: 100%;
-  border: 15px solid #B0B0BD;
+  height: 100%;
 }
 
-#content:hover .bg_slides {
-  opacity: 0.5;
+.image1 {
+  background: url(../img/background1.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  animation:fade 20s infinite;
+  -webkit-animation:fade 20s infinite;
+}
+
+.image2 {
+  background: url(../img/background2.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  animation:fade2 20s infinite;
+  -webkit-animation:fade2 20s infinite;
+}
+
+.image3 {
+  background: url(../img/background3.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  animation:fade3 20s infinite;
+  -webkit-animation:fade3 20s infinite;
+}
+
+@keyframes fade {
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+
+@keyframes fade2 {
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+
+@keyframes fade3 {
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
 }
 
 #content .overlay {
