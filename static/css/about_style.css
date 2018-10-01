@@ -10,7 +10,7 @@
 
 #header {
   width: 100%;
-  height: 100px;
+  height: 80px;
   position: fixed;
   background-color: #040426;
   text-align: right;
@@ -18,8 +18,8 @@
 }
 
 #header ul {
-  padding-top: 50px;
-  padding-right: 50px; /* 글자 오른쪽에서 띄우기 */
+  padding-top: 40px;
+  padding-right: 40px; /* 글자 오른쪽에서 띄우기 */
   display: inline-block;
 }
 
@@ -30,7 +30,7 @@
 #header li a {
   text-decoration: none;
   padding-right: 20px;		/* 글자 간 간격 */
-  font-size: 20px;
+  font-size: 18px;
   color: #FFFFFF;
 }
 
@@ -65,9 +65,6 @@
   -moz-box-align:center;
   -ms-box-pack:center;
   -ms-box-align:center;
-
-  margin-top: 100px;
-  margin-bottom: 49px;
 }
 
 #content_left {
@@ -80,16 +77,17 @@
 
 #content_name {
   position:absolute;
-  width: 80%;
+  width: 70%;
   height: 50%;
-  left: 10%;
+  top: 120px;
+  left: 15%;
+  /*background-color: #B6DFF4;*/
 }
 
 #name {
   position:absolute;
   width: 100%;
-  height: 50%;
-  /*background-color: #B6DFF4;*/
+  /*background-color: #00008C;*/
 }
 
 #name .ko_name {
@@ -113,14 +111,16 @@
   margin-top: 140px;
   padding-top: 15px;
   line-height: 150%;
+  font-size: 15px;
   /*background-color: #B0B0BD;	*/
 }
 
 #artist_note {
   position:absolute;
-  width: 80%;
-  top: 50%;
-  left: 10%;
+  width: 70%;
+  left: 15%;
+  top: 370px;
+  /*background-color: #B0B0BD; */
 }
 
 #artist {
@@ -138,6 +138,7 @@
   width: 100%;
   margin-top: 50px;
   line-height: 150%;
+  font-size: 15px;
 }
 
 
@@ -146,6 +147,7 @@
   width: 40%;
   height: 100%;
   right: 0;
+  font-size: 15px;
   background-color: #DDD;	
 }
 
@@ -153,6 +155,7 @@
   position:absolute;	
   width: 100%;
   margin-left: 15%;
+  top: 110px;
   height: 50%;
 }
 
@@ -168,35 +171,40 @@
   width: 100%;
   margin-top: 140px;
   padding-top: 15px;
-  line-height: 150%;
+  margin-left: 10px;
+  line-height: 130%;
 }
 
 #education {
   position:absolute;
   width: 100%;
-  margin-top: 250px;
-  line-height: 150%;
+  margin-top: 230px;
+  line-height: 130%;
+  margin-left: 10px;
 }
 
 #exhibihion {
   position:absolute;
   width: 100%;
-  margin-top: 340px;
-  line-height: 150%;
+  margin-top: 300px;
+  line-height: 130%;
+  margin-left: 10px;
 }
 
 #prize {
   position:absolute;
   width: 100%;
-  margin-top: 405px;
-  line-height: 150%;
+  margin-top: 350px;
+  line-height: 130%;
+  margin-left: 10px;
 }
 
 #artfair {
   position:absolute;
   width: 100%;
-  margin-top: 470px;
-  line-height: 150%;
+  margin-top: 400px;
+  line-height: 130%;
+  margin-left: 10px;
 }
 
 
@@ -208,8 +216,8 @@
   left: 0px;  /* 왼쪽 공백 메우기 */
   bottom: 0px;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 15px;
   z-index: 1;
 }

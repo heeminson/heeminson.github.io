@@ -51,8 +51,8 @@
   -o-background-size: cover;
   background-size: cover;
   background-size: cover;
-  animation:fade 20s infinite;
-  -webkit-animation:fade 20s infinite;
+  animation:fade 15s infinite;
+  -webkit-animation:fade 15s infinite;
 }
 
 .image2 {
@@ -62,8 +62,8 @@
   -o-background-size: cover;
   background-size: cover;
   background-size: cover;
-  animation:fade2 20s infinite;
-  -webkit-animation:fade2 20s infinite;
+  animation:fade2 15s infinite;
+  -webkit-animation:fade2 15s infinite;
 }
 
 .image3 {
@@ -73,8 +73,8 @@
   -o-background-size: cover;
   background-size: cover;
   background-size: cover;
-  animation:fade3 20s infinite;
-  -webkit-animation:fade3 20s infinite;
+  animation:fade3 15s infinite;
+  -webkit-animation:fade3 15s infinite;
 }
 
 @keyframes fade {
